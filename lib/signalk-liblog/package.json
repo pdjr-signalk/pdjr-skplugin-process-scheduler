@@ -1,0 +1,19 @@
+{
+  "name": "signalk-liblog",
+  "version": "1.0.0",
+  "description": "Log library for Signal K plugins.",
+  "main": "Log.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdjr-signalk/signalk-liblog.git"
+  },
+  "author": "Paul Reeve <preeve_at_pdjr_dot_eu>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/pdjr-signalk/signalk-liblog/issues"
+  },
+  "homepage": "https://github.com/pdjr-signalk/signalk-liblog#readme"
+}

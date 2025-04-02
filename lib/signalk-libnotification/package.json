@@ -1,0 +1,31 @@
+{
+  "name": "signalk-libnotification",
+  "version": "1.0.0",
+  "description": "Signal K notification helper",
+  "main": "Notification.js",
+  "scripts": {
+    "publish": "yq -o=json -I=2 resources/openApi.yaml > resources/openApi.json",
+    "test": "echo \"Error: no test specified\"",
+    "build": "tsc",
+    "prepare": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdjr-signalk/signalk-libnotification.git"
+  },
+  "author": "Paul Reeve <preeve_at_pdjr_dot_eu>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/pdjr-signalk/signalk-libnotification/issues"
+  },
+  "homepage": "https://github.com/pdjr-signalk/signalk-libnotification#readme",
+  "devDependencies": {
+    "@types/lodash": "^4.17.7",
+    "@types/node": "^22.5.5",
+    "@types/uuid": "^10.0.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "uuid": "^10.0.0"
+  }
+}
